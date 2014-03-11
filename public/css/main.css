@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+	margin-top: 0px;
+	padding: 10px;
+	background-color: #e53b26;
+	min-height: 50px;
+}
+
+.container .navbar ul li a {
+	color: #fff;
+  text-align: center;
+}
+
+.container .navbar-right ul li {
+  border-left: solid 1px rgba(255, 255, 255, 0.6);
+	padding-left: 10px;
+}
+
+.container .navbar-left ul li a {
+	  font-size: 30px;
+		font-weight: bold;
+}
+
+#wrap {
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebar {
+	background-color: transparent;
+}
+
+#content {
+	background-color: #eee;
+  margin: 0px;
+}
+
+.nav-stacked ul {
+  border: 1px solid #eee;
+  border-bottom: 0;
+}
+.nav-stacked ul li {
+  border-bottom: 1px solid #eee;
+}
+.nav-stacked ul li a,
+.nav-stacked ul li span {
+  padding: 5px 10px;
+	color: #272D4D;
+}
+.nav-stacked ul li a:hover {
+	color: #e53b26 ;
+}
+
+.card {
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.card-body {
+  padding: 5px;
+}
+.card-heading {
+  background-color: #EC6C20;
+	color: inherit;
+  padding-left: 5px;
+  border-bottom: 1px solid #eee;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: inherit;
+  font-weight: bold;
+}
+.card-title > a {
+  color: inherit;
+}
+.card-footer {
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.card-heading p,
+.card-title p,
+.card-body p,
+.card-footer p {
+	margin-bottom: 0px;
+}
