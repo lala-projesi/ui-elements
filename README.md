@@ -6,7 +6,7 @@ ui-elements
 This repo has a copy of slimky app. Created to develop ui elements of our appllication.
 
     $ git clone git@github.com:lala-projesi/ui-elements.git
-    $ cd slimky
+    $ cd ui-elements
     $ bundle install
 
 ## to run
