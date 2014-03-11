@@ -1,7 +1,7 @@
 ui-elements
 ===========
 
-## ui-elements
+## to install
 
 This repo has a copy of slimky repo. Created to develop ui elements of our appllication.
 
@@ -9,6 +9,6 @@ This repo has a copy of slimky repo. Created to develop ui elements of our appll
     $ cd slimky
     $ bundle install
 
-## To run
+## to run
 
     $ ruby app.rb
