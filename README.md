@@ -3,7 +3,7 @@ ui-elements
 
 ## to install
 
-This repo has a copy of slimky repo. Created to develop ui elements of our appllication.
+This repo has a copy of slimky app. Created to develop ui elements of our appllication.
 
     $ git clone git@github.com:lala-projesi/ui-elements.git
     $ cd slimky
