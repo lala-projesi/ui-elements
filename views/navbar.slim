@@ -1,8 +1,13 @@
-.container
-	nav.navbar.navbar-left
-	  ul
-	    li: a href="/#" Lala Projesi
-	nav.navbar.navbar-right
-	  ul
-	    li: a href="/user" Kullanıcı
-	    li: a href="/profil" Profilim
+.navbar.navbar-inverse.navbar-fixed-top role="navigation" 
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button" 
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="#"  Lala
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li.active: a href="#"  Ayarlar
+        li: a href="#"  Profil
