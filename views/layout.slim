@@ -2,15 +2,17 @@
 <html>
   <head>
     <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/dashboard.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
   <body>
     navbar == slim :navbar,  :layout => false
 
     .container-fluid
       .row
-        .col-xs-6.col-md-4
+        .col-sm-3.col-md-2.sidebar
           #sidebar == slim :sidebar, :layout => false
-        .col-xs-6.col-md-8
-          #content == yield	
+        .col-sm-9.col-md-10.col-md-offset-2.main
+          #content == yield
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
