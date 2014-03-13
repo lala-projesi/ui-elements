@@ -1,0 +1,86 @@
+h2 Satışlar
+.row
+  .col-sm-4.col-md-4.col-lg-6
+    .form-group
+      label.sr-only for="search" Hızlı Arama
+      input.form-control type="search" id="search" placeholder="Hızlı Arama"
+  .col-sm-8.col-md-8.col-lg-6
+    .btn-group.pull-right
+      button.btn.btn-success &nbsp&nbspYeni Proforma &nbsp&nbsp
+      button.btn.btn-success &nbsp&nbspYeni Fatura &nbsp&nbsp
+hr
+.panel.panel-default
+  .panel-heading
+    .row
+      .col-md-3
+        .h3.panel-title Müşteri Adı
+      .col-md-3
+        .h3.panel-title Fatura Açıklaması
+      .col-md-3
+        .h3.panel-title Fatura Tarihi
+      .col-md-3
+        .h3.panel-title Fatura Bakiye
+
+.panel.panel-default
+  .panel-body
+    .row
+      .col-md-3
+        a href="/musteri" Örnek Müşteri Adı LTD.
+      .col-md-3
+			  p Örnek Açıklama Cümlesi 1
+      .col-md-3
+        p 13.11.2014
+      .col-md-3
+        a href= "/fatura" 300.00 TL
+  .panel-footer
+     | footer text goes here
+     .btn-group.btn-group-sm.pull-right
+       a.btn.btn-success href="#"
+         i.fa.fa-eye.fa-sm
+       a.btn.btn-success href="#" 
+         i.fa.fa-pencil-square-o.fa-sm
+       a.btn.btn-success href="#" 
+         i.fa.fa-trash-o.fa-sm
+.panel.panel-default
+  .panel-body
+    .row
+      .col-md-3
+        a href="/musteri" Örnek Müşteri Adı A.Ş.
+      .col-md-3
+			  p Örnek Açıklama Cümlesi 2
+      .col-md-3
+        p 15.11.2014
+      .col-md-3
+        a href= "/fatura" 500.00 TL
+  .panel-footer
+     | footer text goes here
+     .btn-group.btn-group-sm.pull-right
+       a.btn.btn-success href="#"
+         i.fa.fa-eye.fa-sm
+       a.btn.btn-success href="#" 
+         i.fa.fa-pencil-square-o.fa-sm
+       a.btn.btn-success href="#" 
+         i.fa.fa-trash-o.fa-sm
+hr
+hr
+.well
+  .row
+    .col-md-4
+      .h5 Fatura Açıklaması
+    .col-md-4
+      .h5 Fatura Tarihi
+    .col-md-4
+      .h5 Fatura Bakiye
+.well
+  .table-responsive
+    table.table.table-striped.table-hover
+      tbody
+        tr
+          .well
+  				  a href="/musteri": musteri == slim :musteri
+        tr
+          .well
+  				  a href="/musteri": musteri == slim :musteri
+        tr
+          .well
+  				  a href="/musteri": musteri == slim :musteri
