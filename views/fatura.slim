@@ -1,1 +1,81 @@
-h2 fatura
+h2 Fatura
+hr
+
+fatura-header == slim :faturaheader
+.well
+  .row.row-margin.border-bottom
+    .col-md-2
+  		  i.fa.fa-file-text-o.fa-3x
+    .col-md-6
+      h4
+        | Fatura Detayları
+    .col-md-4
+      .btn-group.pull-right
+        a.btn.btn-default
+          span.i.fa.fa-print 
+          | &nbsp Yazdır
+        a.btn.btn-default
+          span.i.fa.fa-pencil
+          | &nbsp Düzenle
+        a.btn.btn-default
+          span.i.fa.fa-cloud-download
+          | &nbsp PDF İndir
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Müşteri:
+    .col-md-10
+      h5
+						  | Müşteri Adı A.Ş
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Fatura Açıklaması:
+    .col-md-10
+      h5
+						  | Açıklama Metni
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Fatura No:
+    .col-md-4.border-right
+      h5
+						  | Seri A-25354
+    .col-md-2
+      h5.text-muted
+        | Fatura Tarihi:
+    .col-md-4.border-right
+      h5
+						  | 11.02.2012
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Fatura Adresi:
+    .col-md-10
+      h5
+						  | Adres Satırı
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Telefon Numarası:
+    .col-md-10
+      h5
+						  | 0222 222 222
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Vergi Bilgileri
+    .col-md-3
+      h5
+        | Vergi Dairesi Bilgisi
+        small &nbsp V.D.
+    .col-md-3  
+      h5
+        | Vergi Numarası Bilgisi
+        small &nbsp V. No
+
+  .row.row-margin
+    table == slim :table
+
+  .row.row-margin
+    table1 == slim :table1

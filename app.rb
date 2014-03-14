@@ -34,4 +34,15 @@ class Sinatra::Base
     slim :musteri
 	end
 
+  get '/table' do
+    slim :table
+	end
+
+  get '/table1' do
+    slim :table1
+	end
+
+  get '/faturaheader' do
+    slim :faturaheader
+	end
 end
