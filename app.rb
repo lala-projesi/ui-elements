@@ -45,4 +45,11 @@ class Sinatra::Base
   get '/faturaheader' do
     slim :faturaheader
 	end
+
+  get '/faturaform' do
+    slim :faturaform
+	end
+  get '/proformaform' do
+    slim :proformaform
+	end
 end
