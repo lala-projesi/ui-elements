@@ -1,0 +1,116 @@
+h2 Fatura Kayıt Formu
+
+.well
+  .row.row-margin.border-bottom
+    .col-md-2
+  		  i.fa.fa-file-text-o.fa-3x
+    .col-md-6
+      h4
+        | Yeni Fatura Detayları
+    .col-md-4
+      .btn-group.pull-right
+        a.btn.btn-success
+          span.i.fa.fa-floppy-o 
+          | &nbsp Kaydet
+        a.btn.btn-warning
+          span.i.fa.fa-times
+          | &nbsp Vazgeç
+
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Müşteri:
+    .col-md-4
+				  input.form-control placeholder=("Müşteri Adını Giriniz") type="text"
+    .col-md-6
+      p.text-muted.small
+        i.fa.fa-info-circle.fa-sm
+						  | &nbsp Kayıtlı bir müşteri seçebilir veya yeni bir müşteri ismi yazabilirsiniz.
+
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Fatura Açıklaması
+    .col-md-4
+				  input.form-control placeholder=("Fatura Açıklaması Giriniz") type="text"
+    .col-md-6
+      p.text-muted.small
+        i.fa.fa-info-circle.fa-sm
+						  | &nbsp Sistemde fatura kaydettiğiniz bu açıklama ile anılacaktır.
+
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Grubu
+    .col-md-4
+				  input.form-control placeholder=(" Kayıtlı bir grup seçebilir veya yeni bir grup oluşturabilirsiniz.") type="text"
+    .col-md-6
+      p.text-muted.small
+        i.fa.fa-info-circle.fa-sm
+						  | &nbsp Benzer işleri sınıflandırmak için kullanılacaktır.
+
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Fatura Tarihi
+    .col-md-4
+				  input.form-control placeholder=(" show_date ") type="date"
+    .col-md-6
+      p.text-muted.small
+						  | &nbsp takvimden Seçebilirsiniz
+
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Fatura Adresi
+    .col-md-4
+				  input.form-control placeholder=("Fatura adresini giriniz ") type="text"
+    .col-md-6
+      p.text-muted.small
+        i.fa.fa-info-circle.fa-sm
+						  | &nbsp Kayıtlı bir adres seçebilirsiniz veya ilk kaydı gerçekleştirebilirsiniz.
+
+  .row.row-margin.border-bottom
+    .col-md-2
+      h5.text-muted
+        | Vergi Bilgileri
+    .col-md-4
+				  input.form-control placeholder=("Vergi bilgilerini giriniz ") type="text"
+    .col-md-6
+      p.text-muted.small
+        i.fa.fa-info-circle.fa-sm
+						  | &nbsp Kayıtlı bir vergi bilgisi seçebilirsiniz veya ilk kaydı gerçekleştirebilirsiniz.
+  .row.row-margin.border-bottom
+				.table-responsive
+				  table.table.table-striped.table-hover
+				    thead
+				      tr
+				        th Hizmet / Ürün  
+				        th Miktar
+				        th Birim Fiyatı
+				        th İndirim
+				        th Vergi Oranı
+				        th Toplam
+				    tbody
+				      tr
+				        td Ürün 2
+				        td 1,00
+				        td
+				  				  | 30,00   
+						  		  i.fa.fa-try.fa-sm
+				        td % 0,00
+				        td % 18
+				        td
+				  				  | 35,40   
+						  		  i.fa.fa-try.fa-sm
+				      tr
+				        td Ürün 1
+				        td 1,00
+				        td
+				  				  | 30,00   
+						  		  i.fa.fa-try.fa-sm
+				        td % 0,00
+				        td % 18
+				        td
+				  				  | 35,40   
+						  		  i.fa.fa-try.fa-sm
